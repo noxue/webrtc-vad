@@ -1,0 +1,47 @@
+﻿生成启动时间为 2016/8/5 17:00:31。
+     1>项目“C:\Users\reach\Desktop\hlx\audio_process\source\signal_processing_win\signal_processing.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../signal_processing/ /I../signal_processing/include/ /I../common/ /I"C:\Program Files (x86)\Windows Kits\8.1\Include\winrt" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\um" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\shared" /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\\VC\atlmfc\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D NOMINMAX /D PSAPI_VERSION=1 /D _CRT_RAND_S /D CERT_CHAIN_PARA_HAS_EXTRA_FIELDS /D WIN32_LEAN_AND_MEAN /D _ATL_NO_OPENGL /D _SECURE_ATL /D _HAS_EXCEPTIONS=0 /D _WINSOCK_DEPRECATED_NO_WARNINGS /D CHROMIUM_BUILD /D "CR_CLANG_REVISION=247874-1" /D USE_AURA=1 /D USE_ASH=1 /D USE_DEFAULT_RENDER_THEME=1 /D USE_LIBJPEG_TURBO=1 /D ENABLE_ONE_CLICK_SIGNIN /D ENABLE_PRE_SYNC_BACKUP /D ENABLE_WEBRTC=1 /D ENABLE_MEDIA_ROUTER=1 /D ENABLE_PEPPER_CDMS /D ENABLE_CONFIGURATION_POLICY /D ENABLE_NOTIFICATIONS /D ENABLE_HIDPI=1 /D ENABLE_TOPCHROME_MD=1 /D DONT_EMBED_BUILD_METADATA /D FIELDTRIAL_TESTING_ENABLED /D NO_TCMALLOC /D ALLOCATOR_SHIM /D __STD_C /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D NTDDI_VERSION=0x06030000 /D _USING_V110_SDK71_ /D ENABLE_TASK_MANAGER=1 /D ENABLE_EXTENSIONS=1 /D ENABLE_PDF=1 /D ENABLE_PLUGIN_INSTALLATION=1 /D ENABLE_PLUGINS=1 /D ENABLE_SESSION_SERVICE=1 /D ENABLE_THEMES=1 /D ENABLE_AUTOFILL_DIALOG=1 /D ENABLE_BACKGROUND=1 /D ENABLE_GOOGLE_NOW=1 /D ENABLE_PRINTING=1 /D ENABLE_BASIC_PRINTING=1 /D ENABLE_PRINT_PREVIEW=1 /D ENABLE_SPELLCHECK=1 /D ENABLE_CAPTIVE_PORTAL_DETECTION=1 /D ENABLE_APP_LIST=1 /D ENABLE_SETTINGS_APP=1 /D ENABLE_SUPERVISED_USERS=1 /D ENABLE_MDNS=1 /D ENABLE_SERVICE_DISCOVERY=1 /D V8_USE_EXTERNAL_STARTUP_DATA /D FULL_SAFE_BROWSING /D SAFE_BROWSING_CSD /D SAFE_BROWSING_DB_LOCAL /D EXPAT_RELATIVE_PATH /D WEBRTC_WIN /D WEBRTC_INCLUDE_INTERNAL_AUDIO_DEVICE /D RTC_USE_OPENMAX_DL /D USE_LIBPCI=1 /D USE_OPENSSL=1 /D __STDC_CONSTANT_MACROS /D __STDC_FORMAT_MACROS /D DYNAMIC_ANNOTATIONS_ENABLED=1 /D WTF_USE_DYNAMIC_ANNOTATIONS=1 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\signal_processing\division_operations.c
+         division_operations.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\..\win_lib_vc\signal_processing.lib" /NOLOGO Debug\auto_correlation.obj
+         Debug\auto_corr_to_refl_coef.obj
+         Debug\complex_bit_reverse.obj
+         Debug\complex_fft.obj
+         Debug\copy_set_operations.obj
+         Debug\cross_correlation.obj
+         Debug\division_operations.obj
+         Debug\dot_product_with_scale.obj
+         Debug\downsample_fast.obj
+         Debug\energy.obj
+         Debug\filter_ar.obj
+         Debug\filter_ar_fast_q12.obj
+         Debug\filter_ma_fast_q12.obj
+         Debug\get_hanning_window.obj
+         Debug\get_scaling_square.obj
+         Debug\ilbc_specific_functions.obj
+         Debug\levinson_durbin.obj
+         Debug\lpc_to_refl_coef.obj
+         Debug\min_max_operations.obj
+         Debug\randomization_functions.obj
+         Debug\real_fft.obj
+         Debug\refl_coef_to_lpc.obj
+         Debug\resample.obj
+         Debug\resample_48khz.obj
+         Debug\resample_by_2.obj
+         Debug\resample_by_2_internal.obj
+         Debug\resample_by_2_mips.obj
+         Debug\resample_fractional.obj
+         Debug\splitting_filter.obj
+         Debug\spl_init.obj
+         Debug\spl_sqrt.obj
+         Debug\spl_sqrt_floor.obj
+         Debug\sqrt_of_one_minus_x_squared.obj
+         Debug\vector_scaling_operations.obj
+         Debug\stdafx.obj
+         signal_processing.vcxproj -> C:\Users\reach\Desktop\hlx\audio_process\source\signal_processing_win\..\..\win_lib_vc\signal_processing.lib
+     1>已完成生成项目“C:\Users\reach\Desktop\hlx\audio_process\source\signal_processing_win\signal_processing.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.35

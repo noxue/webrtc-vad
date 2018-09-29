@@ -1,0 +1,15 @@
+﻿生成启动时间为 2016/8/5 17:20:54。
+     1>项目“C:\Users\reach\Desktop\hlx\audio_process\source\vad_win\vad.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\win_release\vad.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\win_lib_vc\ signal_processing.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"vad.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\win_release\vad.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\win_lib_vc\vad.lib" /MACHINE:X86 /DLL Debug\vad_core.obj
+         Debug\vad_filterbank.obj
+         Debug\vad_gmm.obj
+         Debug\vad_sp.obj
+         Debug\webrtc_vad.obj
+            正在创建库 ..\..\win_lib_vc\vad.lib 和对象 ..\..\win_lib_vc\vad.exp
+         vad.vcxproj -> C:\Users\reach\Desktop\hlx\audio_process\source\vad_win\..\..\win_release\vad.dll
+     1>已完成生成项目“C:\Users\reach\Desktop\hlx\audio_process\source\vad_win\vad.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.27

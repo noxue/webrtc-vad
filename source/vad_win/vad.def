@@ -1,0 +1,9 @@
+LIBRARY "vad"
+
+EXPORTS
+WebRtcVad_Create
+WebRtcVad_Free
+WebRtcVad_Init
+WebRtcVad_set_mode
+WebRtcVad_Process
+WebRtcVad_ValidRateAndFrameLength
